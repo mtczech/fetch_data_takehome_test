@@ -12,14 +12,14 @@ Step 3: Activate your virtual environment, go to the folder where this program i
 
 GOOD TO KNOW: The following values are hardcoded:
 
-queue_port (The port reading messages from the queue) -------------> 4566
-postgres_port (The port used to host the postgres database) -------> 5432
-db_name (The name of the overall database) ------------------------> postgres
-database_name (The name of the table within the overall database) -> user_logins
-username ----------------------------------------------------------> postgres
-password ----------------------------------------------------------> postgres
-input_host (The IP address of the queue) --------------------------> 127.0.0.1/localhost
-output_host (The IP address of the database) ----------------------> 127.0.0.1/localhost
+queue_port (The port reading messages from the queue): 4566
+postgres_port (The port used to host the postgres database): 5432
+db_name (The name of the overall database): postgres
+database_name (The name of the table within the overall database): user_logins
+username: postgres
+password: postgres
+input_host (The IP address of the queue): 127.0.0.1/localhost
+output_host (The IP address of the database): 127.0.0.1/localhost
 
 Notes for the reader about my application: 
 
